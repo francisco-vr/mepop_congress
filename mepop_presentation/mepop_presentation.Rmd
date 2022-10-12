@@ -48,7 +48,7 @@ pacman::p_load(cowplot, ggplot2, tidyverse, dplyr, patchwork, kableExtra, MASS, 
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.3;
+      opacity: 0.2;
       z-index: -1;
 }
 ```
@@ -84,11 +84,11 @@ background-size: 40px
 background-position: 95% 8%
 class: center, middle
 
-### Problema de investigación
+## Problema de investigación
 
 --
-#### Poner la pregunta acá
-
+### ¿Existe una relación entre las emociones y las interacciones políticas?
+#### ¿Cómo la pertenencia a cámaras de eco y la ciudadanía digital profundizan o modulan dichos efectos entre las emociones y las actitudes políticas? 
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -101,15 +101,16 @@ class: left, middle
 ## Cámaras de Eco y Ciudadanía digital 
 ]
 
---
-
 .pull-right[
 
+<div style="text-align: justify">
+- Cámaras de Eco: Redes de amistad y recursos hechas entre personas de pensamiento político similar. Incluye homofilia política, identidad social y sesgos de confirmación (Boutyline et.al, 2017; Wollebæk et. al, 2019). 
 
-- Redes de amistad y recursos hechas entre personas de pensamiento político similar. Incluye homofilia política, identidad social y sesgos de confirmaciónd. (Boutyline et.al, 2017; Wollebæk et. al, 2019). A menudo producida por algoritmos (Pariser, 2011)
+- A menudo producida por algoritmos (Pariser, 2011).
 
 
-- Tipos de participación política en plataformas digitales. Incluyen habilidades tecnológicas, valoración de la acción colectiva en medios digitales y participación en ella. (Choi, M, 2016; Choi et.al, 2018; Chadwick, 2013; Castells, 2009). 
+- Tipos de participación política en plataformas digitales: Incluyen habilidades tecnológicas, valoración de la acción colectiva en medios digitales y participación en ella. (Choi, M, 2016; Choi et.al, 2018; Chadwick, 2013; Castells, 2009). 
+<div/>
 ]
 
 ---
@@ -120,17 +121,19 @@ class: left, middle
 
 .pull-left[
 
-## Revisión literatura de intolerancia, emociones cuando se habla con personas del pensamiento opuesto
+## Emociones y Teoría del Razonamiento Motivado
 
 ]
-
---
-
+<div style="text-align: justify">
 .pull-right[
 
-- **ñi**: 
+- Teoría del Razonamiento Motivado: Modelo dual que distingue entre dos estrastegias de  procesamiento de la información: la automatizada y la controlada.
 
-- **ñe**
+- Ambas estrategias interactúan en la producción del pensamiento y la conducta.
+
+- los sentimientos positivos y/o negativos son parte integral del procesamiento de la información proporcionando motivación y dirección al pensamiento (Taber y Lodge, 2016: 63-64).
+<div/>
+
 ]
 
 ---
@@ -139,20 +142,24 @@ background-size: 40px
 background-position: 95% 8%
 class: left, middle
 
+
+
 .pull-left[
 
-## Relación entre cámaras de eco y ciudadanía digital con intolerancia política y emociones
+## Relación con intolerancia política y emociones
 
+
+- En el contexto político, la ira afecta negativamente al tiempo dedicado a la adquisición de información, limita las fuentes consultadas, lo que conduce a opiniones menos reflexivas, e inhibe el recuerdo preciso de la información recopilada. 
 ]
 
---
 
 .pull-right[
 
-- **uno**
+<div style="text-align: justify">
+- La ira también se relaciona con acciones arriesgadas y de confrontación que se asocian directamente con la intolerancia y la reticencia a deliberar en el mundo (Brader & Marcus, 2013:179).
 
-
-- **dos**
+- La felicidad en la esfera política está asociada al éxito partidista, a las personas afines y a las políticas deseables. También aumenta el interés por los procesos políticos, motiva la acción y refuerza la confianza en las convicciones previas para tomar decisiones políticas. Finalmente, funciona como un acelerador de la movilización en el contexto político (Brader y Marcus, 2013:176).
+<div/>
 ]
 
 ---
@@ -162,7 +169,7 @@ background-position: 95% 8%
 class: left, top
 
 
-## Hipótesis
+## Hipótesis ## PANCHO!!!
 
 
 #### hola
@@ -183,61 +190,72 @@ class:left, middle
 
 ### Methods
 
+
+
+--
 **Sample**
 
---
+<div style="text-align: justify">
 
 Encuesta experimental en línea (n= 690) hecha en el Pool del Centre for Experimental Social Sciences (CESS-USACH)
-
+<div/>
 --
-
+<div style="text-align: justify">
 **Randomization**
 
 Block randomization with Eco Chamber membership and levels of digital citizenship (both binaries)
 
+<div/>
 --
-
+<div style="text-align: justify">
 **Experimental survey**
 
-Caracterización sociodemográfica: Rango etario, géner, ingreso, nivel educativo, Ideología política ("Izquierda", "Derecha", "Centro", "Sin ideología") + 2 Estudios experimentales
-
+Caracterización sociodemográfica: Rango etario, géner, ingreso, nivel educativo, Ideología política + 2 Estudios experimentales
+<div/>
 --
-
+<div style="text-align: justify">
 **Validación**
 
 Comité de expertos, entrevistas cognitivas, pilotaje
 
+<div/>
 --
- 
+<div style="text-align: justify">
 **Analysis**
 
- ATE, *Kruskall-Walis* and *Wilcoxon test*. Probit y Logit regressions
+ATE, *Kruskall-Walis* and *Wilcoxon test*. Probit y Logit regressions
 
+<div/>
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, top
 
-### Estudio 1
-
-
 .pull-left[
 
-
-- Experimento de Lista para observar comportamientos socialmente sensibles
-- Se medirá el nivel de enojo que provoca la cercanía social (presencial) de una persona de distinto pensamiento político
-- Tres condiciones experimentales: Control, pensamiento afin y pensamiento opuesto
-- Personas responden nivel de enojo en una escala de 1 a 7 (ordinal)
+### Estudio 1
 
 ]
 
---
-
 .pull-right[
 
-- Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medioas
-- Ordered logit para variables balanceadas y no balanceadas
+<div style="text-align: justify">
+
+  - Experimento de Lista para observar comportamientos socialmente sensibles.
+
+  - Se medirá el nivel de enojo que provoca la cercanía social (presencial) de una persona de distinto pensamiento político.
+
+  - Tres condiciones experimentales: Control, pensamiento afin y pensamiento opuesto
+
+  - Personas responden nivel de enojo en una escala de 1 a 7 (ordinal).
+
+  - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
+  
+  - Ordered logit para variables balanceadas y no balanceadas.
+
+<div/>
+
 ]
 
 ---
@@ -270,29 +288,37 @@ class: center, middle
 
 
 
+
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, top
 
-### Estudio 2
-
-
 .pull-left[
 
-
-Explicación experimento 2
+### Estudio 2
 
 ]
 
---
-
 .pull-right[
 
-- Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medioas
-- Logit y probit Binomial para variables balanceadas y no balanceadas
+<br>
 
+<div style="text-align: justify">
+
+  - El segundo es un experimento con viñetas en el que se evalúa la relación entre la emocionalidad y la fuerza de los vínculos sociales digitales. 
+
+  - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
+  
+  - Logit y probit Binomial para variables balanceadas y no balanceadas.
+  
+  - Los resultados mostraron que quienes presentan una mayor intensidad emocional tienden a romper sus lazos sociales digitales con mayor facilidad.
+  
+
+
+
+<div/>
 
 ]
 
