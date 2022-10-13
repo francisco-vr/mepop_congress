@@ -377,7 +377,7 @@ background-position: 50% 85%
 
 ]
 
-####.pull-right[Jaquelin Morillo (jaquelin.morillo@gmail.com)
+####.pull-right[Jaquelin Morillo (jmorillor@gmail.com)
 
 ]
 
