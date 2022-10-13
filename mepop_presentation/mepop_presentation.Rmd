@@ -81,7 +81,7 @@ class: center, middle
 ## Problema de investigación
 
 --
-### ¿Cuál es la relación entre las emociones en la socialización políticas?
+### ¿Cuál es la relación entre las emociones en la socialización política?
 #### ¿Cómo la pertenencia a cámaras de eco y la ciudadanía digital profundizan o modulan dichos efectos entre las emociones y las actitudes políticas? 
 
 ---
