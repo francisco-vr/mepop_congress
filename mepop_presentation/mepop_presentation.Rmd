@@ -76,9 +76,6 @@ class: left, botton
 ![](mepop_presentation_files/social_proces.png)
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
-background-size: 40px
-background-position: 95% 8%
 class: center, middle
 
 ## Problema de investigación
@@ -88,9 +85,6 @@ class: center, middle
 #### ¿Cómo la pertenencia a cámaras de eco y la ciudadanía digital profundizan o modulan dichos efectos entre las emociones y las actitudes políticas? 
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
-background-size: 40px
-background-position: 95% 8%
 class: left, middle
 
 .pull-left[
@@ -111,9 +105,6 @@ class: left, middle
 ]
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
-background-size: 40px
-background-position: 95% 8%
 class: left, middle
 
 .pull-left[
@@ -134,11 +125,8 @@ class: left, middle
 ]
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
-background-size: 40px
-background-position: 95% 8%
 class: left, middle
-`´
+
 
 
 .pull-left[
@@ -160,7 +148,7 @@ class: left, middle
 ]
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class: left, top
@@ -185,7 +173,7 @@ class: left, top
 
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, middle
@@ -230,7 +218,7 @@ ATE, *Kruskall-Walis* and *Wilcoxon test*. Probit y Logit regressions
 
 <div/>
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, top
@@ -263,7 +251,7 @@ class:left, top
 
 ---
 class: center, middle
-background-image: url(beamer_presentation_files/treatments_table.png)
+background-image: url(mepop_presentation_files/treatments_table.png)
 background-size: contain
 
 
@@ -296,7 +284,7 @@ knitr::include_graphics("mepop_presentation_files/E1General.png")
 **Personas de poca ciudadanía digital pueden estar más acostumbradas a relacionas sociales presenciales y por eso afecta mas**
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, top
@@ -360,7 +348,7 @@ knitr::include_graphics("mepop_presentation_files/emtions_broke")
 ```
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, top
@@ -377,7 +365,7 @@ knitr:::include_graphics("mepop_presentation_files/discusion.png")
 
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class:left, top
@@ -441,7 +429,7 @@ background-position: 50% 50%
 class: middle, center
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class: left, Top
@@ -460,7 +448,7 @@ information in social media: Development and validation of the identity bubble
 reinforcement scale. Media Psychology, 23(1).]
 
 ---
-background-image: url(beamer_presentation_files/logo-dark-small.png)
+background-image: url(mepop_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class: left, Top
