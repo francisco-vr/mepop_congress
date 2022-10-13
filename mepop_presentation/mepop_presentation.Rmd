@@ -84,7 +84,7 @@ class: center, middle
 ## Problema de investigación
 
 --
-### ¿Existe una relación entre las emociones y las interacciones políticas?
+### ¿Cuál es la relación entre las emociones en la socialización políticas?
 #### ¿Cómo la pertenencia a cámaras de eco y la ciudadanía digital profundizan o modulan dichos efectos entre las emociones y las actitudes políticas? 
 
 ---
@@ -138,7 +138,7 @@ background-image: url(beamer_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
 class: left, middle
-
+`´
 
 
 .pull-left[
@@ -166,18 +166,23 @@ background-position: 95% 8%
 class: left, top
 
 
-## Hipótesis. Esperamos que:
+## Hipótesis
 
+**Esperamos que:**
+
+<br>
 
 #### H1: Haya una relación significativa de aumento de ira por cercanía social a una persona de pensamiento político opuesto, respecto del grupo de control.
 
---
 
+--
 #####  - H1.a: Exista una relación positiva entre el nivel de pertenencia a cámaras de eco y la ira hacia personas de pensamiento ideológicamente opuesto en contextos de cercanía social.
 
 --
 
 #####  - H1.b: Exista una relación positiva entre el nivel de civismo digital con el nivel de ira por cercanía social a personas con pensamiento político opuesto.
+
+
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -339,7 +344,7 @@ class: center, middle
 
 ```{r, echo=FALSE, out.width="100%", fig.align='left'}
 
-knitr::include_graphics("mepop_presentation_files/E3_emocion.png")
+knitr::include_graphics("mepop_presentation_files/emotions_general")
 
 ```
 ---
@@ -350,18 +355,9 @@ class: center, middle
 
 ```{r, echo=FALSE, out.width="100%", fig.align='left'}
 
-knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.png")
+knitr::include_graphics("mepop_presentation_files/emtions_broke")
 
 ```
-
-
----
-background-image: url(beamer_presentation_files/Plot1.png)
-background-size: contain
-background-position: 50% 50%
-class: center, middle
-
-## Tabla de regresión estudio 2
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -369,7 +365,14 @@ background-size: 40px
 background-position: 95% 8%
 class:left, top
 
-## Discusión
+## Síntesis
+
+```{r, echo=FALSE, fig.align='center'}
+
+knitr:::include_graphics("mepop_presentation_files/discusion.png")
+
+```
+
 
 
 
@@ -377,9 +380,20 @@ class:left, top
 background-image: url(beamer_presentation_files/logo-dark-small.png)
 background-size: 40px
 background-position: 95% 8%
-class:left, middle
+class:left, top
 
-###Discusión 2
+### Discusión
+
+<br>
+<br>
+<br>
+<br>
+
+- Preponderancia de la ira como emoción conductora de la socialización política
+
+- Intensidad emocional: Nivel de emociones puede predecir comportamientos como ruptura de lazos sociales
+
+- Membresía a cámaras de eco aumenta más la intensidad emocional que la ciudadanía digital 
 
 
 ---
@@ -530,5 +544,3 @@ background-image: url(mepop_presentation_files/Experimento3Eco.png)
 background-size: contain
 background-position: 50% 50%
 class: middle, center
-
----
