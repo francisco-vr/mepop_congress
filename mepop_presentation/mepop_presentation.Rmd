@@ -73,10 +73,7 @@ knitr::include_graphics("mepop_presentation_files/logo_mepop.png")
 ---
 class: left, botton
 
-![](beamer_presentation_files/social_proces.png)
-
-Habitualmente acá van unas fotos de provocación para poner el tema. quizás etsas mismas sirvan
-
+![](mepop_presentation_files/social_proces.png)
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -169,18 +166,18 @@ background-position: 95% 8%
 class: left, top
 
 
-## Hipótesis ## PANCHO!!!
+## Hipótesis. Esperamos que:
 
 
-#### hola
---
-
-##### acá va otra
+#### H1: Haya una relación significativa de aumento de ira por cercanía social a una persona de pensamiento político opuesto, respecto del grupo de control.
 
 --
 
-##### y otra
+#####  - H1.a: Exista una relación positiva entre el nivel de pertenencia a cámaras de eco y la ira hacia personas de pensamiento ideológicamente opuesto en contextos de cercanía social.
 
+--
+
+#####  - H1.b: Exista una relación positiva entre el nivel de civismo digital con el nivel de ira por cercanía social a personas con pensamiento político opuesto.
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -188,22 +185,23 @@ background-size: 40px
 background-position: 95% 8%
 class:left, middle
 
-### Methods
-
-
+### Métodos
 
 --
-**Sample**
+**Muestra**
 
 <div style="text-align: justify">
 
 Encuesta experimental en línea (n= 690) hecha en el Pool del Centre for Experimental Social Sciences (CESS-USACH)
 <div/>
---
-<div style="text-align: justify">
-**Randomization**
 
-Block randomization with Eco Chamber membership and levels of digital citizenship (both binaries)
+--
+
+<div style="text-align: justify">
+
+**Aleatorización**
+
+Aleatorización en bloque en base a membresía a Cámaras de eco y niveles de ciudadanía digital (ambas binarias)
 
 <div/>
 --
@@ -270,24 +268,27 @@ knitr::include_graphics("mepop_presentation_files/m2.png")
 
 ```
 ---
-background-image: url(beamer_presentation_files/Plot1.png)
-background-size: contain
-background-position: 50% 50%
 class: center, middle
 
-## Resultados Estudio 1
+#### Resultados Estudio 1
 
 
+```{r, echo=FALSE, out.width="120%", fig.align='left'}
+knitr::include_graphics("mepop_presentation_files/E1General.png")
+
+```
 ---
-background-image: url(beamer_presentation_files/Plot1.png)
-background-size: contain
-background-position: 50% 50%
-class: center, middle
 
-## Tabla de regresiones Estudio 1
+**Resultados**
+
+- En el plano general, la ira Aumenta un 13% promedio cuando se encuentra físicamente con una persona de pensamiento político opuesto, en relación al grupo de control.
+
+- En el caso de las persona con alta membresía a cámaras de eco el porcentaje sube a 14% de ira. Quienes tiene baja membresía a cámaras de eco sólo 10%
+
+- En el caso de la ciudadanía digital, quienes tienen una baja ciudadanía digital sube un 21% el nivel de ira con una persona de pensamiento contrario vs el grupo de contro, y sólo 8% en quienes tienen una alta ciudadanía digital.
 
 
-
+**Personas de poca ciudadanía digital pueden estar más acostumbradas a relacionas sociales presenciales y por eso afecta mas**
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -307,7 +308,7 @@ class:left, top
 
 <div style="text-align: justify">
 
-  - El segundo es un experimento con viñetas en el que se evalúa la relación entre la emocionalidad y la fuerza de los vínculos sociales digitales. 
+  - El segundo es un experimento con viñetas en el que se evalúa la relación entre Emociones y la fuerza de los vínculos sociales digitales. 
 
   - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
   
@@ -315,44 +316,43 @@ class:left, top
   
   - Los resultados mostraron que quienes presentan una mayor intensidad emocional tienden a romper sus lazos sociales digitales con mayor facilidad.
   
-
-
-
 <div/>
 
 ]
 
 ---
 class: center, middle
-background-image: url(beamer_presentation_files/treatments_table.png)
+background-image: url(mepop_presentation_files/m5.png)
 background-size: contain
 
 
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/m5.png")
-
-
-```
 ---
 class: center, middle
-background-image: url(beamer_presentation_files/treatments_table.png)
+background-image: url(mepop_presentation_files/m6.png)
 background-size: contain
 
 
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/m6.png")
-
-
-```
-
 ---
-background-image: url(beamer_presentation_files/Plot1.png)
 background-size: contain
 background-position: 50% 50%
 class: center, middle
 
-## Resultados Estudio 2
+```{r, echo=FALSE, out.width="100%", fig.align='left'}
 
+knitr::include_graphics("mepop_presentation_files/E3_emocion.png")
+
+```
+---
+background-size: contain
+background-position: 50% 50%
+class: center, middle
+
+
+```{r, echo=FALSE, out.width="100%", fig.align='left'}
+
+knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.png")
+
+```
 
 
 ---
@@ -388,7 +388,7 @@ background-image: url(https://user-images.githubusercontent.com/163582/45438104-
 background-size: 50px
 background-position: 50% 85%
 
-# ¡Thank You!
+# ¡Gracias!
 
 ####.pull-left[Francisco Villarroel (fvillarroelr@udd.cl)
 
@@ -418,27 +418,13 @@ This slide has created with [**xaringan**](https://github.com/yihui/xaringan) an
 ---
 class: inverted, center, middle
 
-# Appendix
+# Apéndice
 
 ---
-background-image: url(beamer_presentation_files/regression_balanced.png)
+background-image: url(mepop_presentation_files/E3RegGeneral)
 background-size: contain
 background-position: 50% 50%
 class: middle, center
-
----
-background-image: url(beamer_presentation/beamer_presentation_files/logo-dark-small.png)
-background-size: 40px
-background-position: 95% 8%
-class: left, Top
-
-## Some Insights about non-balances regression
-
-- There a critical pint in the age-range. Younger people scores better. people to 45years+ tend to decrease the scoring.
-
-- People with more education scoring better.
-
-- There's no evidence of variations in political ideology and educational levels
 
 ---
 background-image: url(beamer_presentation_files/logo-dark-small.png)
@@ -446,14 +432,14 @@ background-size: 40px
 background-position: 95% 8%
 class: left, Top
 
-## Eco Chamber membership Scale
+## Escala de membrería a cámaras de eco
 
-- Using a recent validated scale<sup>*</sup> about reinforcement opinion in social media
+- Se usa una escala recientemente validadae<sup>*</sup> sobre reinforcement opinion en redes sociales
 
-- 7 items with 1 to 10 range por each item (total Range: 7 to 70)
+- 7 ítemes con un rango de 1 a 10 por cada ítem (tota: 7 a 70)
 
-- Low Eco Chamber Membership: 7 to 39
-- High Ecochamber Membership: 40 to 70
+- Baja membresía a cámaras de eco: 7 to 39
+- Alta membresía a cámaras de eco: 40 to 70
 
 .footnote[[*] Kaakinen, M., Sirola, A., Savolainen, I., & Oksanen, A. (2020). Shared identity and shared
 information in social media: Development and validation of the identity bubble
@@ -465,14 +451,14 @@ background-size: 40px
 background-position: 95% 8%
 class: left, Top
 
-## Digital Citizenship scale
+## Escala de ciudadanía digital
 
-- Using a Scale development by Choi<sup>*</sup> and reduced since 34 items to 14.
+- Se usa una escala desarrollada por Choi<sup>*</sup> y reducida de 34 a 14 ítemes.
 
-- Each item are with a 7 point scale (1 to 7). Total range: 14 to 98
+- Cada ítem está en una escala de 7 puntos (1 a 7). total: 14 to 98
 
-- Low levels of digital citizenship: 14 to 62
-- High levels of Digital citizenship: 63 to 98
+- Bajos niveles de ciudadanía digital: 14 to 62
+- Altos niveles de ciudadanía digital: 63 to 98
 
 .footnote[[*] Choi, M., Glassman, M., & Cristol, D. (2017). What it means to be a citizen in the internet age:
 Development of a reliable and valid digital citizenship scale. Computers & Education, 107,
@@ -517,13 +503,32 @@ class: left, top
 Chambers: The Emotional Basis for Online Behavior. Social Media + Society, 5(2).
 
 ---
-background-image: url(beamer_presentation_files/headline_sets.png)
+background-image: url(mepop_presentation_files/E3RegGeneral.png)
 background-size: contain
 background-position: 50% 50%
 class: top, center
 
 ---
-background-image: url(https://raw.githubusercontent.com/francisco-vr/Homophily-and-Political-behaviour/main/Results/Tables/sample-descriptives.jpg)
+
+
+![](mepop_presentation_files/diagrama_encuesta.png)
+---
+background-image: url(mepop_presentation_files/Experimento3.png)
 background-size: contain
 background-position: 50% 50%
-class: top, center
+class: middle, center
+
+---
+background-image: url(mepop_presentation_files/Experimento3Digi.png)
+background-size: contain
+background-position: 50% 50%
+class: middle, center
+
+
+---
+background-image: url(mepop_presentation_files/Experimento3Eco.png)
+background-size: contain
+background-position: 50% 50%
+class: middle, center
+
+---
