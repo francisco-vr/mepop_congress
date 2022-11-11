@@ -257,7 +257,7 @@ class: center, middle
 
 
 ```{r, echo=FALSE, out.width="120%", fig.align='left'}
-knitr::include_graphics("mepop_presentation_files/E1General.png")
+knitr::include_graphics("mepop_presentation_files/Plot2General.png")
 
 ```
 ---
@@ -319,7 +319,7 @@ class: center, middle
 
 ```{r, echo=FALSE, out.width="100%", fig.align='left'}
 
-knitr::include_graphics("mepop_presentation_files/emotions_general")
+knitr::include_graphics("mepop_presentation_files/Plot2General.png")
 
 ```
 ---
@@ -330,7 +330,7 @@ class: center, middle
 
 ```{r, echo=FALSE, out.width="100%", fig.align='left'}
 
-knitr::include_graphics("mepop_presentation_files/emtions_broke")
+knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.png")
 
 ```
 
@@ -449,20 +449,20 @@ class: middle, center
 
 
 ```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/Experimento3.png")
+knitr::include_graphics("mepop_presentation_files/PlotE1General.png")
 ```
 
 
 ---
 
 ```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/Experimento3Digi.png")
+knitr::include_graphics("mepop_presentation_files/PlotE1DigitHigh.png")
 ```
 
 ---
 
 
 ```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/Experimento3Eco.png")
+knitr::include_graphics("mepop_presentation_files/PLotE1EcoHigh.png")
 ```
 
