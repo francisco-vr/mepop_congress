@@ -71,7 +71,7 @@ knitr::include_graphics("https://training-datalab.com/images/lab-logo.png")
 <font size="-1">Proyecto ANID N.º 171426: “La estructura de la sociabilidad en Chile y sus consecuencias para nuestra convivencia. Análisis longitudinal de redes sociales”, a Cargo del profesor Vicente Espinoza (COES)</font>
 
 ---
-class: center, middle
+class: inverse,center, middle
 
 ## Contexto
 
@@ -85,7 +85,7 @@ class: center, middle
 ### Emociones en la política
 
 ---
-class: center, middle
+class: inverse, center, middle
 
 ## Evidencia
 
@@ -135,7 +135,7 @@ class: left, middle
 
 
 ---
-class: center, middle
+class: inverse,center, middle
 
 ## Teoría
 
@@ -163,18 +163,18 @@ class: left, middle
 ]
 
 ---
-class: center, middle
+class: inverse,center, middle
 
 ## Interrogantes
 
 ---
-class: center, middle 
+class: inverse,center, middle 
 
 ### ¿Cuáles son las emociones que moderan los lazos sociales en el contexto de las redes sociales?
 ### ¿Cómo la afinidad ideológica modera la ira en contextos de cercanía social? 
 
 ---
-class: center, middle
+class: inverse,center, middle
 
 ## Hipótesis
 
@@ -199,7 +199,7 @@ H3: Los sujetos expuestos a ***vecinos de pensamiento opuesto*** autorreportará
 H4: Los sujetos expuestos a ***vecinos de pensamiento similar*** autorreportán ***menores niveles de ira***.
 <div/>
 ---
-class:left, middle
+class: left, middle
 
 ### Métodos
 
@@ -244,14 +244,10 @@ ATE, *Kruskall-Walis* and *Wilcoxon test*. Probit y Logit regressions
 ---
 class:left, top
 
-.pull-left[
 
 ### Estudio 1
 
-]
-
-.pull-right[
-
+<br>
 <br>
 
 <div style="text-align: justify">
@@ -265,8 +261,6 @@ class:left, top
   - Los resultados mostraron que quienes presentan una mayor intensidad emocional tienden a romper sus lazos sociales digitales con mayor facilidad.
   
 <div/>
-
-]
 
 ---
 class: center, middle
@@ -285,11 +279,22 @@ background-size: contain
 background-position: 50% 50%
 class: center, middle
 
-```{r, echo=FALSE, out.width="100%", fig.align='left'}
+```{r, echo=FALSE, out.width="125%", fig.align='left'}
 
 knitr::include_graphics("mepop_presentation_files/PlotE1General.png")
 
 ```
+---
+background-size: contain
+background-position: 50% 50%
+class: center, middle
+
+```{r, echo=FALSE, out.width="125%", fig.align='left'}
+
+knitr::include_graphics("mepop_presentation_files/E1_Marginal_effects.png")
+
+```
+
 ---
 background-size: contain
 background-position: 50% 50%
@@ -317,7 +322,6 @@ knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.pn
 
 ---
 class:left, top
-
 
 ### Estudio 2
 
@@ -490,71 +494,5 @@ background-position: 50% 85%
 <br>
 This slide has created with [**xaringan**](https://github.com/yihui/xaringan) and [**XaringanThemer**](https://pkg.garrickadenbuie.com/xaringanthemer/index.html)
 
----
-class: inverted, center, middle
 
-# Apéndice
-
----
-class: left, Top
-
-## Escala de membrería a cámaras de eco
-
-- Se usa una escala recientemente validadae<sup>*</sup> sobre reinforcement opinion en redes sociales
-
-- 7 ítemes con un rango de 1 a 10 por cada ítem (tota: 7 a 70)
-
-- Baja membresía a cámaras de eco: 7 to 39
-- Alta membresía a cámaras de eco: 40 to 70
-
-.footnote[[*] Kaakinen, M., Sirola, A., Savolainen, I., & Oksanen, A. (2020). Shared identity and shared
-information in social media: Development and validation of the identity bubble
-reinforcement scale. Media Psychology, 23(1).]
-
----
-class: left, Top
-
-## Escala de ciudadanía digital
-
-- Se usa una escala desarrollada por Choi<sup>*</sup> y reducida de 34 a 14 ítemes.
-
-- Cada ítem está en una escala de 7 puntos (1 a 7). total: 14 to 98
-
-- Bajos niveles de ciudadanía digital: 14 to 62
-- Altos niveles de ciudadanía digital: 63 to 98
-
-.footnote[[*] Choi, M., Glassman, M., & Cristol, D. (2017). What it means to be a citizen in the internet age:
-Development of a reliable and valid digital citizenship scale. Computers & Education, 107,
-100-112.]
-
----
-class: top, center
-
-![](mepop_presentation_files/kk.png)
-
----
-
-![](mepop_presentation_files/diagrama_encuesta.png)
-
----
-class: middle, center
-
-
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/PlotE1General.png")
-```
-
-
----
-
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/PlotE1DigitHigh.png")
-```
-
----
-
-
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/PLotE1EcoHigh.png")
-```
 
