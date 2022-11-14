@@ -63,26 +63,31 @@ pacman::p_load(cowplot, ggplot2, tidyverse, dplyr, patchwork, kableExtra, MASS, 
 
 <br>
 
-```{r, echo=FALSE, out.width="60%", fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/logo_mepop.png")
+```{r, echo=FALSE, out.width="15%", fig.align='center'}
+knitr::include_graphics("https://training-datalab.com/images/lab-logo.png")
 ```
 
 
 <font size="-1">Proyecto ANID N.º 171426: “La estructura de la sociabilidad en Chile y sus consecuencias para nuestra convivencia. Análisis longitudinal de redes sociales”, a Cargo del profesor Vicente Espinoza (COES)</font>
 
 ---
-class: left, botton
+class: center, middle
 
-![](mepop_presentation_files/social_proces.png)
+## Contexto
+
+---
+class: center, middle 
+
+### Redes Sociales
+<br>
+### Estallido Social
+<br>
+### Emociones en la política
 
 ---
 class: center, middle
 
-## Problema de investigación
-
---
-### ¿Cuál es la relación entre las emociones en la socialización política?
-#### ¿Cómo la pertenencia a cámaras de eco y la ciudadanía digital profundizan o modulan dichos efectos entre las emociones y las actitudes políticas? 
+## Evidencia
 
 ---
 class: left, middle
@@ -90,85 +95,109 @@ class: left, middle
 .pull-left[
 
 ## Cámaras de Eco y Ciudadanía digital 
+
+
+Redes de amistad y recursos hechas entre personas de pensamiento político similar. 
+
+Incluye homofilia política, identidad social y sesgos de confirmación (Boutyline et.al, 2017; Wollebæk et. al, 2019).
 ]
 
 .pull-right[
 
 <div style="text-align: justify">
-- Cámaras de Eco: Redes de amistad y recursos hechas entre personas de pensamiento político similar. Incluye homofilia política, identidad social y sesgos de confirmación (Boutyline et.al, 2017; Wollebæk et. al, 2019). 
 
-- A menudo producida por algoritmos (Pariser, 2011).
+- Concepto multidimensional y complejo en conexión con una relación interrelacionada pero no lineal con la vida cívica offline (Choi, M, 2016)
 
+- 4 elementos principales que construyen la ciudadanía digital: Ética, alfabetización mediática e informática, participación y compromiso y resistencia crítica.
 
-- Tipos de participación política en plataformas digitales: Incluyen habilidades tecnológicas, valoración de la acción colectiva en medios digitales y participación en ella. (Choi, M, 2016; Choi et.al, 2018; Chadwick, 2013; Castells, 2009). 
+- Tipos de participación política en plataformas digitales:  habilidades tecnológicas, valoración de la acción colectiva en medios digitales y participación en ella. (Choi et.al, 2018; Chadwick, 2013; Castells, 2009). 
 <div/>
 ]
 
 ---
 class: left, middle
 
-.pull-left[
-
-## Emociones y Teoría del Razonamiento Motivado
-
-]
-<div style="text-align: justify">
-.pull-right[
-
-- Teoría del Razonamiento Motivado: Modelo dual que distingue entre dos estrastegias de  procesamiento de la información: la automatizada y la controlada.
-
-- Ambas estrategias interactúan en la producción del pensamiento y la conducta.
-
-- los sentimientos positivos y/o negativos son parte integral del procesamiento de la información proporcionando motivación y dirección al pensamiento (Taber y Lodge, 2016: 63-64).
-<div/>
-
-]
-
----
-class: left, middle
-
-
-
-.pull-left[
 
 ## Relación con intolerancia política y emociones
 
+<div style="text-align: justify">
 
-- En el contexto político, la ira afecta negativamente al tiempo dedicado a la adquisición de información, limita las fuentes consultadas, lo que conduce a opiniones menos reflexivas, e inhibe el recuerdo preciso de la información recopilada. 
+***La ira:*** 
+- Afecta negativamente al tiempo dedicado a la adquisición de información y limita las fuentes consultadas. 
+- Opiniones menos reflexivas e inhibe el recuerdo preciso de la información recopilada
+- Acciones arriesgadas y confrontación lo que se relaciona de forma directa con la intolerancia y la reticencia la deliberación (Brader & Marcus, 2013:179).
+
+***La felicidad:***
+- Está asociada al éxito partidista, a las personas afines y a las políticas deseables. 
+- Aumenta el interés por los procesos políticos, motiva la acción y refuerza la confianza en las convicciones previas para tomar decisiones políticas.
+- Funciona como un acelerador de la movilización en el contexto político (Brader y Marcus, 2013:176).
+<div/>
+
+
+---
+class: center, middle
+
+## Teoría
+
+---
+class: left, middle
+
+.pull-left[
+
+## Teoría del Razonamiento Motivado
+
+***Modelo dual que distingue entre dos estrategias de  procesamiento de la información: la automatizada y la controlada***
+
 ]
 
-
+<div style="text-align: justify">
 .pull-right[
 
-<div style="text-align: justify">
-- La ira también se relaciona con acciones arriesgadas y de confrontación que se asocian directamente con la intolerancia y la reticencia a deliberar en el mundo (Brader & Marcus, 2013:179).
+- Ambas estrategias interactúan en la producción del pensamiento y la conducta.
 
-- La felicidad en la esfera política está asociada al éxito partidista, a las personas afines y a las políticas deseables. También aumenta el interés por los procesos políticos, motiva la acción y refuerza la confianza en las convicciones previas para tomar decisiones políticas. Finalmente, funciona como un acelerador de la movilización en el contexto político (Brader y Marcus, 2013:176).
+- Los sentimientos positivos y/o negativos son parte integral del procesamiento de la información proporcionando motivación y dirección al pensamiento (Taber y Lodge, 2016: 63-64).
+
+- A diferencia de la Teoría de la inteligencia emocional donde el aprendizaje tiene un rol clave en la conformación de opiniones, la Teoría del Razonamiento Motivado sugiere que las emociones sesgan el acceso y valoración de la información por parte de los sujetos involucrados.
 <div/>
+
 ]
 
 ---
-class: left, top
+class: center, middle
 
+## Interrogantes
+
+---
+class: center, middle 
+
+### ¿Cuáles son las emociones que moderan los lazos sociales en el contexto de las redes sociales?
+### ¿Cómo la afinidad ideológica modera la ira en contextos de cercanía social? 
+
+---
+class: center, middle
 
 ## Hipótesis
 
-**Esperamos que:**
+---
+<br>
+
+### Se espera que,
+
+<div style="text-align: justify">
+H1: Aquellos individuos con mayor ***intensidad emocional*** serán mas propensos a dejar de seguir en redes sociales a sujetos con ***opinión divergente*** que los individuos con menor intensidad emocional.
 
 <br>
 
-#### H1: Haya una relación significativa de aumento de ira por cercanía social a una persona de pensamiento político opuesto, respecto del grupo de control.
+H2: La emociones que manifiestan ***mayor intensidad*** al moderar los lazos sociales en contexto de redes sociales son la ***ira*** y la ***tristeza***.
 
+<br>
 
---
-#####  - H1.a: Exista una relación positiva entre el nivel de pertenencia a cámaras de eco y la ira hacia personas de pensamiento ideológicamente opuesto en contextos de cercanía social.
+H3: Los sujetos expuestos a ***vecinos de pensamiento opuesto*** autorreportarán ***mayores niveles de ira***.  
 
---
+<br>
 
-#####  - H1.b: Exista una relación positiva entre el nivel de civismo digital con el nivel de ira por cercanía social a personas con pensamiento político opuesto.
-
-
-
+H4: Los sujetos expuestos a ***vecinos de pensamiento similar*** autorreportán ***menores niveles de ira***.
+<div/>
 ---
 class:left, middle
 
@@ -195,7 +224,7 @@ Aleatorización en bloque en base a membresía a Cámaras de eco y niveles de ci
 <div style="text-align: justify">
 **Experimental survey**
 
-Caracterización sociodemográfica: Rango etario, géner, ingreso, nivel educativo, Ideología política + 2 Estudios experimentales
+Caracterización sociodemográfica: Rango etario, género, ingreso, nivel educativo, Ideología política + 2 Estudios experimentales
 <div/>
 --
 <div style="text-align: justify">
@@ -211,74 +240,13 @@ Comité de expertos, entrevistas cognitivas, pilotaje
 ATE, *Kruskall-Walis* and *Wilcoxon test*. Probit y Logit regressions
 
 <div/>
+
 ---
 class:left, top
 
 .pull-left[
 
 ### Estudio 1
-
-]
-
-.pull-right[
-
-<div style="text-align: justify">
-
-  - Experimento de Lista para observar comportamientos socialmente sensibles.
-
-  - Se medirá el nivel de enojo que provoca la cercanía social (presencial) de una persona de distinto pensamiento político.
-
-  - Tres condiciones experimentales: Control, pensamiento afin y pensamiento opuesto
-
-  - Personas responden nivel de enojo en una escala de 1 a 7 (ordinal).
-
-  - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
-  
-  - Ordered logit para variables balanceadas y no balanceadas.
-
-<div/>
-
-]
-
----
-class: center, middle
-
-
-
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/m2.png")
-```
-
-
----
-class: center, middle
-
-#### Resultados Estudio 1
-
-
-```{r, echo=FALSE, out.width="120%", fig.align='left'}
-knitr::include_graphics("mepop_presentation_files/Plot2General.png")
-
-```
----
-
-**Resultados**
-
-- En el plano general, la ira Aumenta un 13% promedio cuando se encuentra físicamente con una persona de pensamiento político opuesto, en relación al grupo de control.
-
-- En el caso de las persona con alta membresía a cámaras de eco el porcentaje sube a 14% de ira. Quienes tiene baja membresía a cámaras de eco sólo 10%
-
-- En el caso de la ciudadanía digital, quienes tienen una baja ciudadanía digital sube un 21% el nivel de ira con una persona de pensamiento contrario vs el grupo de contro, y sólo 8% en quienes tienen una alta ciudadanía digital.
-
-
-**Personas de poca ciudadanía digital pueden estar más acostumbradas a relacionas sociales presenciales y por eso afecta mas**
-
----
-class:left, top
-
-.pull-left[
-
-### Estudio 2
 
 ]
 
@@ -292,7 +260,7 @@ class:left, top
 
   - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
   
-  - Logit y probit Binomial para variables balanceadas y no balanceadas.
+  - Logit y probit Binomial para variables balanceadas y no balanceadas con sus efectos marginales.
   
   - Los resultados mostraron que quienes presentan una mayor intensidad emocional tienden a romper sus lazos sociales digitales con mayor facilidad.
   
@@ -319,9 +287,21 @@ class: center, middle
 
 ```{r, echo=FALSE, out.width="100%", fig.align='left'}
 
-knitr::include_graphics("mepop_presentation_files/Plot2General.png")
+knitr::include_graphics("mepop_presentation_files/PlotE1General.png")
 
 ```
+---
+background-size: contain
+background-position: 50% 50%
+class: center, middle
+
+
+```{r, echo=FALSE, out.width="100%", fig.align='left'}
+
+knitr::include_graphics("mepop_presentation_files/E3_emocion.png")
+
+```
+
 ---
 background-size: contain
 background-position: 50% 50%
@@ -334,7 +314,122 @@ knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.pn
 
 ```
 
+
 ---
+class:left, top
+
+
+### Estudio 2
+
+
+<br>
+<br>
+
+<div style="text-align: justify">
+
+  - Experimento de Lista para observar comportamientos socialmente sensibles.
+
+  - Se medirá el nivel de enojo que provoca la cercanía social (presencial) de una persona de distinto pensamiento político.
+
+  - Tres condiciones experimentales: Control, pensamiento afin y pensamiento opuesto
+
+  - Personas responden nivel de enojo en una escala de 1 a 7 (ordinal).
+
+  - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
+  
+  - OLS and Maximum likelihood para variables balanceadas y no balanceadas.
+
+<div/>
+
+
+
+---
+class: center, middle
+
+
+
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("mepop_presentation_files/m2.png")
+```
+
+
+---
+class: center, middle
+
+#### Resultados Estudio 2
+
+.pull-left[
+
+```{r, echo=FALSE, out.width="130%", fig.align='left'}
+knitr::include_graphics("mepop_presentation_files/Plot2General.png")
+
+```
+]
+
+<div style="text-align: justify">
+
+.pull-right[
+
+
+- Ira Aumenta un 13% promedio con una persona de pensamiento político opuesto
+
+]
+
+<div/>
+
+**Personas de poca ciudadanía digital pueden estar más acostumbradas a relacionas sociales presenciales y por eso afecta mas**
+
+---
+class: center, middle
+
+#### Resultados Estudio 2
+
+
+```{r, echo=FALSE, out.width="90%", fig.align='left'}
+knitr::include_graphics("mepop_presentation_files/Plot2Homo.png")
+
+```
+
+
+<div style="text-align: justify">
+
+- Alta membresía a cámaras de eco el porcentaje sube a 14% de ira
+- Quienes tienen baja membresía a cámaras de eco sólo sube un 10%
+
+<div/>
+
+---
+
+class: center, middle
+
+#### Resultados Estudio 2
+
+
+```{r, echo=FALSE, out.width="90%", fig.align='left'}
+knitr::include_graphics("mepop_presentation_files/E2Digit.png")
+
+```
+
+
+<div style="text-align: justify">
+
+- Baja ciudadanía digital, sube un 21% el nivel de ira con una persona de pensamiento contrario
+- Sólo 8% en quienes tienen una alta ciudadanía digital
+
+<div/>
+
+---
+class: center, middle
+
+
+```{r, echo=FALSE, fig.align='center', out.width="88%"}
+
+knitr::include_graphics("mepop_presentation_files/E2Reg_Balanced.png")
+
+
+```
+
+
 class:left, top
 
 ## Síntesis
@@ -344,9 +439,6 @@ class:left, top
 knitr:::include_graphics("mepop_presentation_files/discusion.png")
 
 ```
-
-
-
 
 ---
 class:left, top
