@@ -310,6 +310,30 @@ knitr::include_graphics("mepop_presentation_files/E3_emocion.png")
 ---
 background-size: contain
 background-position: 50% 50%
+class: left, middle
+
+.pull-left[
+```{r, echo=FALSE, out.width="140%", fig.align='left'}
+
+knitr::include_graphics("mepop_presentation_files/E1Reg_Emotions_Balanced.png")
+
+```
+
+]
+
+.pull-right[
+
+**Tested with controls shows:**
+
+- that with more age, more hapiness
+- Men increase 3.5 points in hapiness that women
+- Fear decreases almost five times less.
+- Also right-wing people shows less sadness that center-wing.
+]
+
+---
+background-size: contain
+background-position: 50% 50%
 class: center, middle
 
 
@@ -318,12 +342,31 @@ class: center, middle
 knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.png")
 
 ```
+---
+class:left, top
+
+### Results
+
+
+<br>
+<br>
+
+<div style="text-align: justify">
+
+  - Anger and fear are the two main emotions in political discussions
+
+  - Anger indicates risky choices, reduce information process and intolerance
+
+  - People that are more "emotionally intense", tend to unfollow more friends
+  
+<div/>
+
 
 
 ---
 class:left, top
 
-### Estudio 2
+### Study 2
 
 
 <br>
@@ -456,9 +499,15 @@ class:left, top
 
 - Preponderancia de la ira como emoción conductora de la socialización política
 
+- Cercanía a pensamiento opuesto genera un aumento considerable en emocione snegativas que llevan a conductas políticas intolerantes
+
+- Polarización afectiva es el mejor mecanismo para describir este proceso
+
 - Intensidad emocional: Nivel de emociones puede predecir comportamientos como ruptura de lazos sociales
 
 - Membresía a cámaras de eco aumenta más la intensidad emocional que la ciudadanía digital 
+
+- Infestigaciones futuras: diferencias emocionales opr género, y consideración de oleadas etáreas y comportamiento político
 
 
 ---
@@ -493,6 +542,95 @@ background-position: 50% 85%
 <br>
 <br>
 This slide has created with [**xaringan**](https://github.com/yihui/xaringan) and [**XaringanThemer**](https://pkg.garrickadenbuie.com/xaringanthemer/index.html)
+
+---
+class: inverted, center, middle
+
+# Appendix
+
+---
+class: left, Top
+
+## Eco Chamber membership Scale
+
+- Using a recently validated scale<sup>*</sup> on reinforcement opinions in social media
+
+- There are 7 items with 1 to 10 range each (total Range: 7 to 70)
+
+- Low Eco Chamber Membership: 7 to 39
+- High Eco Chamber Membership: 40 to 70
+
+.footnote[[*] Kaakinen, M., Sirola, A., Savolainen, I., & Oksanen, A. (2020). Shared identity and shared
+information in social media: Development and validation of the identity bubble
+reinforcement scale. Media Psychology, 23(1).]
+
+---
+class: left, Top
+
+## Digital Citizenship scale
+
+- Based on a scale developed by Choi<sup>*</sup> (reduced from 34 to 14 items).
+
+- Each item has 7 point scale (1 to 7). Total range: 14 to 98
+
+- Low levels of digital citizenship: 14 to 62
+- High levels of Digital citizenship: 63 to 98
+
+.footnote[[*] Choi, M., Glassman, M., & Cristol, D. (2017). What it means to be a citizen in the internet age:
+Development of a reliable and valid digital citizenship scale. Computers & Education, 107,
+100-112.]
+
+---
+class: left, Top
+
+
+```{r, echo=FALSE, fig.align='center'}
+
+knitr:::include_graphics("mepop_presentation_files/diagrama_encuesta.png")
+
+```
+
+---
+class: left, Top
+
+## Experiment 1 
+
+```{r, echo=FALSE, fig.align='center'}
+
+knitr:::include_graphics("mepop_presentation_files/PLotE1EcoHigh.png")
+
+```
+
+---
+class: left, Top
+
+
+```{r, echo=FALSE, fig.align='center'}
+
+knitr:::include_graphics("mepop_presentation_files/PlotE1EcoLow.png")
+
+```
+
+---
+class: left, Top
+
+
+```{r, echo=FALSE, fig.align='center'}
+
+knitr:::include_graphics("mepop_presentation_files/PlotE1DigitHigh.png")
+
+```
+
+---
+
+class: left, Top
+
+
+```{r, echo=FALSE, fig.align='center'}
+
+knitr:::include_graphics("mepop_presentation_files/PlotE1DigitLow.png")
+
+```
 
 
 
