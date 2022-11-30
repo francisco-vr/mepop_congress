@@ -266,7 +266,7 @@ knitr::include_graphics("mepop_presentation_files/Diagrama_E1.png")
 ---
 class: inverse,center, middle
 
-## Hipótesis
+## Resultados Estudio 1
 
 ---
 background-size: contain
@@ -339,7 +339,7 @@ knitr::include_graphics("mepop_presentation_files/Experimento3-broke-emotions.pn
 ---
 class:left, top
 
-### Resultados
+### Resultados Estudio 1
 
 
 <br>
@@ -409,8 +409,6 @@ class: inverse,center, middle
 ---
 class: center, middle
 
-#### Resultados Estudio 2
-
 .pull-left[
 
 ```{r, echo=FALSE, out.width="130%", fig.align='left'}
@@ -472,7 +470,7 @@ knitr::include_graphics("mepop_presentation_files/E2Digit.png")
 class: center, middle
 
 
-```{r, echo=FALSE, fig.align='center', out.width="88%"}
+```{r, echo=FALSE, fig.align='center', out.width="65%"}
 
 knitr::include_graphics("mepop_presentation_files/E2Reg_Balanced.png")
 
