@@ -24,8 +24,8 @@ options(htmltools.dir.version = FALSE)
 library(xaringanthemer)
 style_mono_accent(
   base_color = "#23395b",
-  header_font_google = google_font("Josefin Sans"),
-  text_font_google   = google_font("Montserrat", "300", "300i"),
+  header_font_google = google_font("Roboto Condensed"),
+  text_font_google   = google_font("Roboto Condensed", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
 )
 style_mono_light(base_color = "#23395b")
@@ -62,7 +62,7 @@ pacman::p_load(cowplot, ggplot2, tidyverse, dplyr, patchwork, kableExtra, MASS, 
 
 
 ```{r, echo=FALSE, out.width="20%", fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/lab-logo-removebg-preview.png")
+knitr::include_graphics("mepop_presentation_files/logo2017a.png")
 ```
 
 
@@ -206,7 +206,7 @@ class: left, middle
 
 <div style="text-align: justify">
 
-Encuesta experimental en línea (n= 690) hecha en el Pool del Centre for Experimental Social Sciences (CESS-USACH)
+Encuesta experimental en línea (n= 690) hecha en el Pool del Centre for Experimental Social Sciences (CESS-USACH), desde el 10 al 20 de Diciembre de 2021.
 <div/>
 
 --
@@ -231,13 +231,7 @@ Caracterización sociodemográfica: Rango etario, género, ingreso, nivel educat
 Comité de expertos, entrevistas cognitivas, pilotaje
 
 <div/>
---
-<div style="text-align: justify">
-**Analysis**
 
-ATE, *Kruskall-Walis* and *Wilcoxon test*. Probit y Logit regressions
-
-<div/>
 
 ---
 class:left, top
@@ -254,7 +248,7 @@ class:left, top
 
   - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
   
-  - Logit y probit Binomial para variables balanceadas y no balanceadas con sus efectos marginales.
+  - Logit Binomial para variables balanceadas y no balanceadas con sus efectos marginales.
   
   - Los resultados mostraron que quienes presentan una mayor intensidad emocional tienden a romper sus lazos sociales digitales con mayor facilidad.
   
@@ -265,18 +259,14 @@ class: center, middle
 background-size: contain
 
 
-```{r, fig.align='center', out.width="100%", echo=FALSE}
-knitr::include_graphics("mepop_presentation_files/m5.png")
+```{r, fig.align='center', out.width="125%", echo=FALSE}
+knitr::include_graphics("mepop_presentation_files/Diagrama_E1.png")
 ```
 
 ---
-class: center, middle
+class: inverse,center, middle
 
-
-```{r, fig.align='center', out.width="100%", echo=FALSE}
-knitr::include_graphics("mepop_presentation_files/m6.png")
-```
-
+## Hipótesis
 
 ---
 background-size: contain
@@ -391,20 +381,29 @@ class:left, top
 
   - Se Aplicará un ATE, test de Kruskall Wallis y Wilcoxon para diferencia entre medias.
   
-  - OLS robusto and Maximum likelihood para variables balanceadas y no balanceadas.
+  - Ordered logit con controles y OLS.
 
 <div/>
 
+---
+class:left, top
+
+## Condiciones experimentales
+
+
+| T1: Opposite                                                                        | T2: Like-minded       | Control                   |
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------|
+|1) Tu AFP ha perdido un tercio de </br> tus ahorros por malas decisiones financieras |1) Tu AFP ha perdido un tercio de </br> tus ahorros por malas decisiones financieras | 1) Tu AFP ha perdido un tercio de </br> tus ahorros por malas decisiones financieras|
+|2) Deportistas profesionales firman </br> contratos por cientos de millones | 2) Deportistas profesionales firman </br> contratos por cientos de millones | 2) Deportistas profesionales firman </br> contratos por cientos de millones|
+|3) Grandes empresas contaminan el medio ambiente | 3) Grandes empresas contaminan el medio ambiente | 3) Grandes empresas contaminan el medio ambiente |
+|**4) Un nuevo vecino le entrega un </br> afiche que dice [Mensaje pensamiento opuesto]**| **4) Un nuevo vecino le entrega un </br> afiche que dice [Mensaje pensamiento Afin]**|    |
+---------------------------------------------------------------------------------------------------------------------------------------
 
 
 ---
-class: center, middle
+class: inverse,center, middle
 
-
-
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("mepop_presentation_files/m2.png")
-```
+## Resultados Estudio 2
 
 
 ---
@@ -453,10 +452,7 @@ knitr::include_graphics("mepop_presentation_files/Plot2Homo.png")
 <div/>
 
 ---
-
 class: center, middle
-
-#### Resultados Estudio 2
 
 
 ```{r, echo=FALSE, out.width="90%", fig.align='left'}
@@ -513,7 +509,7 @@ class:left, top
 
 - Membresía a cámaras de eco aumenta más la intensidad emocional que la ciudadanía digital 
 
-- Investigaciones futuras: diferencias emocionales opr género, y consideración de oleadas etáreas y comportamiento político
+- Investigaciones futuras: diferencias emocionales por género, y consideración de oleadas etáreas y comportamiento político
 
 
 ---
@@ -591,7 +587,7 @@ class: center, middle
 
 **Experimento 1 - Test de balance de controles en cada condición experimental**
 
-```{r, echo=FALSE, fig.align='center', out.width="50%"}
+```{r, echo=FALSE, fig.align='center', out.width="42%"}
 
 knitr:::include_graphics("mepop_presentation_files/E1_Balanced_test.png")
 
@@ -604,7 +600,7 @@ class: center, middle
 **Experimento 2 - Test de balance de controles en cada condición experimental**
 
 
-```{r, echo=FALSE, fig.align='center', out.width="30%"}
+```{r, echo=FALSE, fig.align='center', out.width="28%"}
 
 knitr:::include_graphics("mepop_presentation_files/E2_Balanced_test.png")
 
@@ -621,6 +617,16 @@ knitr:::include_graphics("mepop_presentation_files/diagrama_encuesta.png")
 ```
 
 ---
+class: center, middle
+
+### Experimento 1: Viñetas por condición experimental
+
+```{r, fig.align='center', out.width="100%", echo=FALSE}
+knitr::include_graphics("mepop_presentation_files/m6.png")
+```
+
+---
+
 class: center, middle
 
 ## Experiment 1 
@@ -660,5 +666,12 @@ knitr:::include_graphics("mepop_presentation_files/PlotE1DigitLow.png")
 
 ```
 
+---
+class: center, middle
+
+
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("mepop_presentation_files/m2.png")
+```
 
 
